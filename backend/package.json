@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "soket.io": "^0.0.1-security",
+    "websocket": "^1.0.35"
+  }
 }
