@@ -1,4 +1,3 @@
-
 import { User } from "./usermanger";
 
 let GLOBAL_ROOM_ID = 1;
