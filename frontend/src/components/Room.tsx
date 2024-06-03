@@ -11,9 +11,8 @@ export const RoomComp = () => {
     const [sendingPc, setSendingPc] = useState<null | RTCPeerConnection>(null);
     const [receivingPc, setReceivingPc] = useState<null | RTCPeerConnection>(null);
     const [remoteVideoTrack, setRemoteVideoTrack] = useState<MediaStreamTrack | null>(null);
-    const [localVideoTracck, setlocalVideoTracck] = useState<MediaStreamTrack, null>(null);
     const [remoteAudioTrack, setRemoteAudioTrack] = useState<MediaStreamTrack | null>(null);
-    const [localAudioTrack, setLocalAudioTrack] = useState<MediaStreamTrack, null>(null);
+    
 
 
     useEffect( () => {
